@@ -7,8 +7,8 @@ fun main(){
         println(salario)
 
         println("-----------------")
-        println("Maior Salario: ${salarios.max()}") //Salarios maximo no range
-        println("Menor Salario: ${salarios.min()}") //Salario minimo no range
+        println("Maior Salario: ${salarios.maxOrNull()}") //Salarios maximo no range
+        println("Menor Salario: ${salarios.minOrNull()}") //Salario minimo no range
         println("Media Salario: ${salarios.average()}") //Media salarial
 
         val salariosMaiorQue2500 = salarios.filter { it > 2500.0 } //Filtro para busca de salario maior que o valor especificado
